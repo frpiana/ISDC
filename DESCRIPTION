@@ -1,11 +1,12 @@
 Package: ISDC
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Impedance spectroscopy data calculation
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Francesco Piana
+Maintainer: The package maintainer <f.piana.pr@gmail.com>
+Description: With this package is possible to calculate most of the dielectric properties of a material measured with impedance spectroscopy.
+    It contains a class that must be feeded with a ASCII file generated with Alpha-A analyzer (Novocontrol Technologies, Montabaur, Germany) and the geometry of the specimen.
+    An object can be generated for each sample, it will con
+License: open software.
 Encoding: UTF-8
 LazyData: true
