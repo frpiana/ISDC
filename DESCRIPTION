@@ -10,3 +10,6 @@ Description: With this package is possible to calculate most of the dielectric p
 License: open software.
 Encoding: UTF-8
 LazyData: true
+Collocate:
+  'classSample.R'
+  'sample_EIS.Rd'
