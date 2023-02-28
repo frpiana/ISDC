@@ -1,5 +1,5 @@
 # Main class definition
-sample_EIS <- setRefClass(
+sampleIS <- setRefClass(
   "sample_EIS", # Class name
   fields = list(
     code = "character",
@@ -23,7 +23,7 @@ sample_EIS <- setRefClass(
   )
 )
 
-sample_EIS$methods(
+sampleIS$methods(
   # Method for the import of standard ASCII files
   dataImport = function(){
     .self$dielectric <<- readr::read_delim(
@@ -50,7 +50,7 @@ sample_EIS$methods(
 
 )
 
-sample_EIS$methods(
+sampleIS$methods(
   # method for the calculation of the dielectric parameters
   dataCalc = function(){
     dielectric$r_s_capacitance <<- 1/(2*pi*dielectric$freq*dielectric$i_s_impedance)

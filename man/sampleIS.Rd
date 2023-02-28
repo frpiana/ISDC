@@ -1,8 +1,8 @@
-\name{sample_EIS}
-\alias{sample_EIS}
+\name{sampleIS}
+\alias{sampleIS}
 \title{Class for Impedance Spectrocopy sample object generation}
 \usage{
-objectName <- new('sample_EIS',
+objectName <- new('sampleIS',
               code = "...",
               dataSource = "...",
               diameter = ...,
@@ -19,7 +19,7 @@ objectName <- new('sample_EIS',
 The initialization requires a TXT file containing impedance data, the name and the geometry of the specimen.
 }
 \examples{
-sample <- new("sample_EIS",
+sample <- new("sampleIS",
             code = "pol_01",
             dataSource = "C://project/data/sample01.txt",
             diameter = 5,

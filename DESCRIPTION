@@ -12,4 +12,4 @@ Encoding: UTF-8
 LazyData: true
 Collocate:
   'classSample.R'
-  'sample_EIS.Rd'
+  'sample_EIS.rD'
