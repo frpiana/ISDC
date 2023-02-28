@@ -32,7 +32,7 @@ sample_EIS$methods(
       escape_double = FALSE,
       trim_ws = TRUE,
       skip = 3)
-    if(" Temp. [°C]" %in% colnames(.self$dielectric)){
+    if("Temp. [?C]" %in% colnames(.self$dielectric)){
       names(.self$dielectric) <- c("freq",
                                    "temperature",
                                    "r_p_impedance",
